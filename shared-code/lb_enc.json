@@ -1,0 +1,227 @@
+{
+    "MSZoning": [
+        "A",
+        "C (all)",
+        "FV",
+        "I",
+        "RH",
+        "RL",
+        "RP",
+        "RM"
+    ],
+    "Street": [
+        "Grvl",
+        "Pave"
+    ],
+    "Alley": [
+        "Grvl",
+        "Pave",
+        "NA"
+    ],
+    "Utilities": [
+        "AllPub",
+        "NoSewr",
+        "NoSeWa",
+        "ELO"
+    ],
+    "LotConfig": [
+        "Inside",
+        "Corner",
+        "CulDSac",
+        "FR2",
+        "FR3"
+    ],
+    "Neighborhood": [
+        "Blmngtn",
+        "Blueste",
+        "BrDale",
+        "BrkSide",
+        "ClearCr",
+        "CollgCr",
+        "Crawfor",
+        "Edwards",
+        "Gilbert",
+        "IDOTRR",
+        "MeadowV",
+        "Mitchel",
+        "NAmes",
+        "NoRidge",
+        "NPkVill",
+        "NridgHt",
+        "NWAmes",
+        "OldTown",
+        "SWISU",
+        "Sawyer",
+        "SawyerW",
+        "Somerst",
+        "StoneBr",
+        "Timber",
+        "Veenker"
+    ],
+    "Condition1": [
+        "Artery",
+        "Feedr",
+        "Norm",
+        "RRNn",
+        "RRAn",
+        "PosN",
+        "PosA",
+        "RRNe",
+        "RRAe"
+    ],
+    "Condition2": [
+        "Artery",
+        "Feedr",
+        "Norm",
+        "RRNn",
+        "RRAn",
+        "PosN",
+        "PosA",
+        "RRNe",
+        "RRAe"
+    ],
+    "ForFamilyType": [
+        "1Fam",
+        "2fmCon",
+        "Duplex",
+        "TwnhsE",
+        "Twnhs"
+    ],
+    "Stories": [
+        "2Story",
+        "2.5Fin",
+        "2.5Unf",
+        "SLvl",
+        "1.5Fin",
+        "SFoyer",
+        "1Story",
+        "1.5Unf"
+    ],
+    "RoofStyle": [
+        "Flat",
+        "Gable",
+        "Gambrel",
+        "Hip",
+        "Mansard",
+        "Shed"
+    ],
+    "RoofMatl": [
+        "ClyTile",
+        "CompShg",
+        "Membran",
+        "Metal",
+        "Roll",
+        "Tar&Grv",
+        "WdShake",
+        "WdShngl"
+    ],
+    "Exterior1st": [
+        "AsbShng",
+        "AsphShn",
+        "BrkComm",
+        "BrkFace",
+        "CBlock",
+        "CemntBd",
+        "HdBoard",
+        "ImStucc",
+        "MetalSd",
+        "Other",
+        "Plywood",
+        "PreCast",
+        "Stone",
+        "Stucco",
+        "VinylSd",
+        "Wd Sdng",
+        "WdShing"
+    ],
+    "Exterior2nd": [
+        "AsbShng",
+        "AsphShn",
+        "Brk Cmn",
+        "BrkFace",
+        "CBlock",
+        "CmentBd",
+        "HdBoard",
+        "ImStucc",
+        "MetalSd",
+        "Other",
+        "Plywood",
+        "PreCast",
+        "Stone",
+        "Stucco",
+        "VinylSd",
+        "Wd Sdng",
+        "Wd Shng"
+    ],
+    "Foundation": [
+        "BrkTil",
+        "CBlock",
+        "PConc",
+        "Slab",
+        "Stone",
+        "Wood"
+    ],
+    "Heating": [
+        "Floor",
+        "GasA",
+        "GasW",
+        "Grav",
+        "OthW",
+        "Wall"
+    ],
+    "CentralAir": [
+        "N",
+        "Y"
+    ],
+    "Electrical": [
+        "SBrkr",
+        "FuseA",
+        "FuseF",
+        "FuseP",
+        "Mix"
+    ],
+    "GarageType": [
+        "2Types",
+        "Attchd",
+        "Basment",
+        "BuiltIn",
+        "CarPort",
+        "Detchd",
+        "NA"
+    ],
+    "MiscFeature": [
+        "Elev",
+        "Gar2",
+        "Othr",
+        "Shed",
+        "TenC",
+        "NA"
+    ],
+    "SaleType": [
+        "WD",
+        "CWD",
+        "VWD",
+        "New",
+        "COD",
+        "Con",
+        "ConLw",
+        "ConLI",
+        "ConLD",
+        "Oth"
+    ],
+    "SaleCondition": [
+        "Normal",
+        "Abnorml",
+        "AdjLand",
+        "Alloca",
+        "Family",
+        "Partial"
+    ],
+    "MasVnrType": [
+        "BrkCmn",
+        "BrkFace",
+        "CBlock",
+        "NA",
+        "Stone"
+    ]
+}
