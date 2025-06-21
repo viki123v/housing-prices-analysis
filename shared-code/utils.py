@@ -2,11 +2,14 @@ import pandas as pd
 import numpy as np 
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import root_mean_squared_error,make_scorer
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 ID_COL='Id'
 TARGET_COL='SalePrice'
 INDEX_COL='Index'
 Kfolds=6 # Za da imat 20% vo validation datasetot 
+
 
 cols = np.array(
         [
