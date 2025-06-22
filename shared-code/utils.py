@@ -1,7 +1,7 @@
 import pandas as pd 
 import numpy as np 
 from sklearn.compose import ColumnTransformer
-from sklearn.metrics import root_mean_squared_error,make_scorer
+from sklearn.metrics import root_mean_squared_error,make_scorer,root_mean_squared_log_error
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -74,10 +74,7 @@ np_apply_log = np.vectorize(apply_log)
 
 
 def rmse_logs(y_true, y_pred):
-    y_true_tmp = np_apply_log(y_true)
-    y_pred_tmp = np_apply_log(y_pred)
-
-    return root_mean_squared_error(y_true_tmp, y_pred_tmp)
+   return root_mean_squared_log_error(y_true=y_true,y_pred=y_pred) 
 
 
 house_pricing_metric = make_scorer(rmse_logs)
