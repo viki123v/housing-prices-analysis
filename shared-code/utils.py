@@ -73,7 +73,10 @@ def apply_log(x):
 np_apply_log = np.vectorize(apply_log)
 
 
+MAX_TARGET_COL_VALUE=745000
+
 def rmse_logs(y_true, y_pred):
+   y_pred = np.where(y_pred <= -1, 1e6, MAX_TARGET_COL_VALUE+1000)
    return root_mean_squared_log_error(y_true=y_true,y_pred=y_pred) 
 
 
