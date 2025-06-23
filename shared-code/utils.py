@@ -77,7 +77,7 @@ MAX_TARGET_COL_VALUE=745000
 
 def rmse_logs(y_true, y_pred):
    y_pred = np.where(y_pred <= -1, 0, y_pred)
-   return root_mean_squared_log_error(y_true=y_true,y_pred=y_pred) 
+   return -1 * root_mean_squared_log_error(y_true=y_true,y_pred=y_pred) 
 
 
 house_pricing_metric = make_scorer(rmse_logs)
