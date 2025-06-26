@@ -23,7 +23,7 @@ cols = np.array(
     )
 
 
-def change_cols_names_return_new(df:pd.DataFrame,old_new_pairs:np.ndarray[tuple[str,str]]):
+def change_cols_names_return_new(df:pd.DataFrame,old_new_pairs:np.ndarray):
     tmp=df.columns.values 
     indx_oldcols=np.where(np.isin(tmp,old_new_pairs[:,0]))[0]
     for i,indx in enumerate(indx_oldcols):
