@@ -7,7 +7,6 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 ID_COL='Id'
 TARGET_COL='SalePrice'
-INDEX_COL='Index'
 Kfolds=6 # Za da imat 20% vo validation datasetot 
 
 
